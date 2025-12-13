@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFolio X – Advanced Interactive Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">DevFolio<span>X</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle">🌙</button>
+    </nav>
+</header>
+
+<section id="home" class="hero reveal">
+    <h1>Hello, I’m <span>Developer</span></h1>
+    <h2 id="roleText"></h2>
+    <p>
+        I design and build modern, responsive, and interactive web applications
+        with a strong focus on user experience and performance.
+    </p>
+    <button onclick="scrollToSection('projects')">Explore My Work</button>
+</section>
+
+<section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate frontend developer with hands-on experience in creating
+        visually appealing and functional web interfaces. I enjoy transforming
+        complex problems into clean, scalable, and user-friendly solutions using
+        modern web technologies.
+    </p>
+</section>
+
+<section id="skills" class="section reveal">
+    <h2>Technical Skills</h2>
+
+    <div class="skill">
+        <span>HTML5</span>
+        <div class="bar"><span data-level="90"></span></div>
+    </div>
+
+    <div class="skill">
+        <span>CSS3</span>
+        <div class="bar"><span data-level="85"></span></div>
+    </div>
+
+    <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><span data-level="80"></span></div>
+    </div>
+
+    <div class="skill">
+        <span>Git & GitHub</span>
+        <div class="bar"><span data-level="75"></span></div>
+    </div>
+</section>
+
+<section id="projects" class="section reveal">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+        <div class="project-card" onclick="openProject('TaskFlow','A smart task management dashboard with local storage, dynamic task states, and responsive UI.')">
+            <h3>TaskFlow</h3>
+            <p>Task Management Dashboard</p>
+        </div>
+
+        <div class="project-card" onclick="openProject('Expense Tracker','An expense tracking system with budgeting, monthly summaries, and data persistence.')">
+            <h3>Expense Tracker</h3>
+            <p>Finance Management Application</p>
+        </div>
+
+        <div class="project-card" onclick="openProject('DevFolio X','An advanced interactive portfolio featuring animations, theming, and modern UI design.')">
+            <h3>DevFolio X</h3>
+            <p>Personal Portfolio Platform</p>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="section reveal">
+    <h2>Experience</h2>
+    <div class="timeline">
+        <div class="entry">
+            <h3>Frontend Developer</h3>
+            <p>
+                Developed responsive and interactive web interfaces using
+                HTML, CSS, and JavaScript while focusing on performance and usability.
+            </p>
+        </div>
+
+        <div class="entry">
+            <h3>Web Development Intern</h3>
+            <p>
+                Assisted in building UI components, fixing bugs, and improving
+                user experience for real-world web applications.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section reveal">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input id="name" type="text" placeholder="Your Name">
+        <input id="email" type="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="status"></p>
+</section>
+
+<footer>
+    <p>© 2025 DevFolio X. All rights reserved.</p>
+</footer>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <button onclick="closeProject()">Close</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

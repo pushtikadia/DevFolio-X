@@ -1,0 +1,341 @@
+:root {
+    --bg-dark: #020617;
+    --bg-dark-soft: rgba(15, 23, 42, 0.85);
+    --bg-card: rgba(30, 41, 59, 0.75);
+    --primary: #38bdf8;
+    --secondary: #0ea5e9;
+    --text-main: #f8fafc;
+    --text-soft: #cbd5f5;
+    --radius: 14px;
+    --blur: blur(14px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: radial-gradient(circle at top, #0f172a, #020617 60%);
+    color: var(--text-main);
+    transition: background 0.4s, color 0.4s;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background: var(--bg-dark-soft);
+    backdrop-filter: var(--blur);
+    border-bottom: 1px solid rgba(148,163,184,0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.logo span {
+    color: var(--primary);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 14px;
+    color: var(--text-soft);
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav button {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    color: var(--text-main);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: clamp(36px, 6vw, 54px);
+    font-weight: 800;
+}
+
+.hero span {
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero h2 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-soft);
+}
+
+.hero p {
+    margin-top: 14px;
+    max-width: 600px;
+    line-height: 1.6;
+    color: var(--text-soft);
+}
+
+.hero button {
+    margin-top: 30px;
+    padding: 14px 36px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    color: #020617;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(56,189,248,0.35);
+}
+
+/* ================= SECTIONS ================= */
+
+.section {
+    padding: 90px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+/* ================= ABOUT ================= */
+
+#about p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 16px;
+    color: var(--text-soft);
+    text-align: center;
+}
+
+/* ================= SKILLS ================= */
+
+.skill {
+    margin-bottom: 24px;
+}
+
+.skill span {
+    font-size: 14px;
+    color: var(--text-soft);
+}
+
+.bar {
+    margin-top: 8px;
+    height: 10px;
+    background: rgba(148,163,184,0.15);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    border-radius: 10px;
+    transition: width 1.5s ease;
+}
+
+/* ================= PROJECTS ================= */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background: var(--bg-card);
+    padding: 28px;
+    border-radius: var(--radius);
+    backdrop-filter: var(--blur);
+    border: 1px solid rgba(148,163,184,0.1);
+    cursor: pointer;
+    transition: transform 0.35s, box-shadow 0.35s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 60px rgba(56,189,248,0.25);
+}
+
+/* ================= EXPERIENCE ================= */
+
+.timeline {
+    display: grid;
+    gap: 24px;
+}
+
+.entry {
+    background: var(--bg-card);
+    padding: 24px;
+    border-radius: var(--radius);
+    border-left: 4px solid var(--primary);
+}
+
+/* ================= CONTACT ================= */
+
+form {
+    max-width: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+input, textarea {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(15,23,42,0.6);
+    color: var(--text-main);
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    color: #020617;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ================= MODAL ================= */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    background: rgba(2,6,23,0.75);
+    backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    background: #020617;
+    max-width: 420px;
+    padding: 30px;
+    margin: 20vh auto;
+    border-radius: var(--radius);
+    text-align: center;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(2,6,23,0.9);
+    color: var(--text-soft);
+}
+
+/* ================= LIGHT MODE ================= */
+
+.light {
+    background: linear-gradient(135deg, #f8fafc, #e5e7eb);
+    color: #020617;
+}
+
+.light header {
+    background: rgba(226,232,240,0.9);
+}
+
+.light nav a {
+    color: #020617;
+}
+
+.light .project-card,
+.light .entry {
+    background: rgba(255,255,255,0.8);
+}
+
+.light input,
+.light textarea {
+    background: rgba(255,255,255,0.9);
+    color: #020617;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        min-height: 80vh;
+    }
+}
