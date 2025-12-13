@@ -30,5 +30,3 @@ This project demonstrates strong frontend fundamentals along with modern UI/UX p
 
 ---
 
-## 📁 Project Structure
-
