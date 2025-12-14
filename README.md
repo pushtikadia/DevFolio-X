@@ -1,4 +1,4 @@
-# Welcome to the DevFolio X Repository!
+#DevFolio X 
 
 This project documents the development of **DevFolio X**, an advanced, interactive developer portfolio. It demonstrates modern web development practices, focusing on creating a visually rich, responsive, and user-friendly interface without relying on heavy frameworks.
 
