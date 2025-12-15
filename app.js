@@ -97,3 +97,8 @@ contactForm.addEventListener("submit", e => {
     statusText.textContent = "Message sent successfully!"
     contactForm.reset()
 })
+
+
+
+
+
