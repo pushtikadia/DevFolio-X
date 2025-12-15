@@ -43,3 +43,8 @@ You can run the portfolio locally by simply opening the `index.html` file in you
 * **Git:** Version control.
 
 *Created by [Pushti Kadia](https://github.com/pushtikadia)*
+
+
+
+
+
