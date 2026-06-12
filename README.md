@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Architecture-Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Vanilla JS"/>
     <img src="https://img.shields.io/badge/UI_Design-Glassmorphism-FF4081?style=for-the-badge" alt="Glassmorphism UI"/>
 
-  🗣️ **An advanced, hyper-interactive developer portfolio showcasing high-performance modern web engineering without heavy framework overhead.**
+   **An advanced, hyper-interactive developer portfolio showcasing high-performance modern web engineering without heavy framework overhead.**
 
   ___
 </div>
