@@ -1,13 +1,15 @@
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80" width="100%" style="max-width: 600px; border-radius: 16px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); margin-bottom: 24px;" alt="DevFolio X Banner" />
+  <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80" width="100%" style="max-width: 400px; border-radius: 12px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15); margin-bottom: 24px;" alt="DevFolio X Banner" />
 
   # 💎 DevFolio X
 
   <p align="center">
     <img src="https://img.shields.io/badge/Architecture-Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Vanilla JS"/>
     <img src="https://img.shields.io/badge/UI_Design-Glassmorphism-FF4081?style=for-the-badge" alt="Glassmorphism UI"/>
+    <img src="https://img.shields.io/github/stars/pushtikadia/DevFolio-X?style=for-the-badge&color=FFD700&labelColor=1E1E24" alt="Stars"/>
+  </p>
 
-   **An advanced, hyper-interactive developer portfolio showcasing high-performance modern web engineering without heavy framework overhead.**
+  🗣️ **An advanced, hyper-interactive developer portfolio showcasing high-performance modern web engineering without heavy framework overhead.**
 
   ___
 </div>
