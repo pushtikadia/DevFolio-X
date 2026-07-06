@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 DevFolio-X
+# ✨ DevFolio-X
 
 **An advanced, interactive developer portfolio website built with HTML, CSS, and Vanilla JavaScript.**
 
