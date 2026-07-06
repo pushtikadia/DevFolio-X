@@ -13,7 +13,7 @@ DevFolio-X is a modern, responsive portfolio template designed for developers to
 
 ---
 
-## ✨ Core Features
+## 🌟 Core Features
 
 *   **🎨 Glassmorphism UI:** A sleek, premium look that brings depth and modern design standards to your portfolio.
 *   **🌓 Dark/Light Mode:** Seamless theme toggling for the best user experience regardless of time or setting.
