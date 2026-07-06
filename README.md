@@ -64,3 +64,14 @@ Follow these steps to set up your own version of DevFolio-X.
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/pushtikadia/DevFolio-X.git](https://github.com/pushtikadia/DevFolio-X.git)
+```
+
+### 2. Navigate to the project
+```bash
+cd DevFolio-X
+```
+
+### 3. Open the project
+```bash
+Simply open index.html in your preferred web browser to view the portfolio.
+```
