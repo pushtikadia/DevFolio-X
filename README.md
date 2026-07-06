@@ -84,6 +84,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
- Built With Passion By <a href="https://github.com/yourusername"><b>Pushti Kadia</b></a>
+ <b>Built With Passion By</b> <a href="https://github.com/yourusername"><b>Pushti Kadia</b></a>
 </p>
 
