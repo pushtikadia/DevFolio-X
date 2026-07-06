@@ -78,6 +78,6 @@ cd DevFolio-X
 ---
 
 <p align="center">
- Built with passion by <a href="https://github.com/yourusername"><b>Pushti Kadia</b></a>
+ Built With Passion By <a href="https://github.com/yourusername"><b>Pushti Kadia</b></a>
 </p>
 
