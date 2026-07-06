@@ -4,6 +4,8 @@
 
 **An advanced, interactive developer portfolio website built with HTML, CSS, and Vanilla JavaScript.**
 
+---
+
 </div>
 
 ## 📖 About
