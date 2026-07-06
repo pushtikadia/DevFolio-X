@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80" width="100%" style="max-width: 280px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); margin-bottom: 24px;" alt="DevFolio X Banner" />
-
   # 💎 DevFolio X
 
   <p align="center">
