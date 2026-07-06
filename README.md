@@ -74,3 +74,10 @@ cd DevFolio-X
 ### 3. Open the project
 
 * Simply open index.html in your preferred web browser to view the portfolio.
+
+---
+
+<p align="center">
+ Built with passion by <a href="https://github.com/yourusername"><b>Pushti Kadia</b></a>
+</p>
+
