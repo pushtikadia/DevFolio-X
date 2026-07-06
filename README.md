@@ -72,6 +72,5 @@ cd DevFolio-X
 ```
 
 ### 3. Open the project
-```bash
+
 Simply open index.html in your preferred web browser to view the portfolio.
-```
