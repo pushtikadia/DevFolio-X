@@ -4,10 +4,6 @@
 
 **An advanced, interactive developer portfolio website built with HTML, CSS, and Vanilla JavaScript.**
 
----
-
-![Portfolio Preview](https://via.placeholder.com/800x400?text=DevFolio-X+Preview)
-
 </div>
 
 ## 📖 About
