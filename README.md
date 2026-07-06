@@ -73,7 +73,7 @@ cd DevFolio-X
 
 ### 3. Open the project
 
-* Simply open index.html in your preferred web browser to view the portfolio.
+* Simply open <b>index.html</b> in your preferred web browser to view the portfolio.
 
 ---
 
